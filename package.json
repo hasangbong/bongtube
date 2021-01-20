@@ -1,0 +1,11 @@
+{
+  "name": "bongtube",
+  "version": "1.0.0",
+  "description": "Cloning Youtube with vanilla and nodejs",
+  "main": "index.js",
+  "author": "Bong",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
