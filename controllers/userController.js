@@ -1,27 +1,23 @@
 export const join = (req,res) =>{
-    res.send("Join");
+    res.render("join");
 }
 
 export const login = (req,res) =>{
-    res.send("Login");
+    res.render("login");
 }
 
 export const logout = (req,res) =>{
-    res.send("Logout");
-}
-
-export const users = (req,res) =>{
-    res.send("Users");
+    res.render("logout");
 }
 
 export const userDetail = (req,res) =>{
-    res.send("User Detail");
+    res.render("userDetail");
 }
 
 export const editProfile = (req,res) =>{
-    res.send("Edit Profile");
+    res.render("editProfile");
 }
 
 export const changePassword = (req,res) =>{
-    res.send("Change Password");
+    res.render("changePassword");
 }
